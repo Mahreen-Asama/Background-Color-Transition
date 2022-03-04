@@ -1,0 +1,23 @@
+body
+{ animation: bgcolor infinite 10s;}
+h1
+{margin:50;
+ padding:70;
+font-family:"monospace";
+font-size:3em;
+color:red;}
+
+
+@keyframes bgcolor{
+ 0%{background-image:url("https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg")}
+10%{background:black}
+20%{background:pink}
+30%{background:blue}
+40%{background-image:url("https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg")}
+50%{background:yellow}
+60%{background:green}
+70%{background-image:url("https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg")}
+80%{background:black}
+90%{background:purple}
+100%{background:pink}
+}
